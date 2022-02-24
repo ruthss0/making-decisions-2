@@ -170,7 +170,17 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
-
+for (let num = 1; num < 100; num++){
+  if (num % 5 === 0 && num % 3 === 0) {
+    console.log('DevMountain ', num)
+  } else if(num % 3 === 0) {
+    console.log('Dev ', num)
+  } else if(num % 5 === 0) {
+    console.log('mountain ', num)
+  } else {
+    console.log(num)
+  }
+};
 
 // Your output should look like:
 1
